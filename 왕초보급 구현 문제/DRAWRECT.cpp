@@ -27,3 +27,20 @@ int main() {
 		cout << *set_x.begin() << ' ' << *set_y.begin() << '\n';
 	}
 }
+
+/* 비트마스킹 XOR연산
+#include<iostream>
+using namespace std;
+
+int main() {
+        int n; cin>>n;
+        while(n--) {
+                int x=0,y=0;
+                for (int i=0; i<3; i++) {
+                        int a,b; cin>>a>>b;
+                        x^=a; y^=b;
+                }
+                cout << x << " " << y << endl;
+        }
+        return 0;
+}*/
